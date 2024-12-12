@@ -8,6 +8,7 @@ on:
   pull_request:
   schedule:
   - cron: '54 19 * * SUN' # weekly at a "random" time
+  workflow_dispatch:
 
 permissions:
   contents: read
